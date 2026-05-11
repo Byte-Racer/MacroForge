@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-ink font-body text-frost antialiased;
+}
+
+* {
+  scrollbar-color: #2b2b2b #090909;
+}
+
+.card-shell {
+  @apply rounded-3xl border border-line bg-card shadow-glow;
+}
